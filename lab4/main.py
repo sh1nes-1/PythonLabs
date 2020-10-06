@@ -24,7 +24,6 @@ all_age = 0
 
 for student in students:
     all_studentship += student.studentship
-    print(student.get_age())
     all_age += student.get_age()
 
 middle_age = all_age / len(students)
